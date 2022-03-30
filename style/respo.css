@@ -1,0 +1,340 @@
+@media (max-width: 767.98px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header img {
+        width: 270px;
+        height: 90px;
+    }
+
+    .banner-contain h1 {
+        font-size: 3em !important;
+    }
+
+    .banner-contain p {
+        margin: 20px 0 0 0;
+    }
+
+    /* logo-card */
+    .logo-row {
+        transform: translateY(-10%);
+    }
+
+    /* logo-card-end */
+
+    /* image-container */
+    .md-image svg {
+        height: auto;
+        max-width: 66vmin;
+        width: 56%;
+        margin: 150px 0 0 0px;
+    }
+
+    .big-image svg {
+        width: 66%;
+        margin: -110px 0 0 80px;
+    }
+
+    .gray-circle svg {
+        width: 50%;
+        margin: 310px 20px 0px 135px;
+    }
+
+    .svg-all {
+        height: 70vh;
+    }
+
+    /* image-container-end */
+
+    /* backpacking trips  */
+
+    .trip-text h1 {
+        font-size: 3em;
+    }
+
+    .trip-text p {
+        /* padding: 0 50px 0 50px; */
+        font-size: 1.2em;
+    }
+
+    /* backpacking trips-end */
+
+    /* about us  */
+    .row-container {
+        margin: 0 !important;
+    }
+
+    .white-div-container {
+        width: auto;
+    }
+
+    .white-div-container p {
+        font-size: 1.2em !important;
+    }
+
+    /* about us-end */
+
+    /* image-cards */
+    .img-white-div {
+        width: 100%;
+    }
+
+    /* image-cards-end */
+
+    /* freedom */
+    .freedom-text-img img {
+        margin-right: 0;
+        height: 250px;
+        width: 250px;
+    }
+
+    .freedom-text-img h1 {
+        font-size: 3em;
+        margin: -155px 0px 0px -150px;
+    }
+
+
+    .freedom-container {
+        height: 45vh;
+    }
+
+    .orange-text-div p {
+        width: 100%;
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    .orange-circle-text svg {
+        margin: 0 0 0 0px;
+        height: auto;
+        max-width: 66vmin;
+        width: 70%;
+        position: relative;
+    }
+
+    /* freedom-end */
+
+    /* image-container2 */
+    .row-img img {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    /* image-container2-end */
+    /* hot-air-ballon-festival */
+    .hot-gray-circle svg {
+        height: auto;
+        /* max-width: 100vmin; */
+        width: 50%;
+        margin: 30px 0px 0px 150px;
+        /* position: relative; */
+    }
+
+    .hot-big-img img {
+        width: 350px;
+        height: 350px;
+        margin: -100px 0px 0px 0px;
+    }
+
+    .hot-orange-circle svg {
+        margin-top: -1020px;
+    }
+
+    .hot-white-div {
+        padding: 50px 30px;
+        width: 100%;
+        margin: 20px 0 0 0px;
+    }
+
+    .hot-white-div h1 {
+        font-size: 2em;
+    }
+
+    .hot-white-div p {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .hot-white-div .btn {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    /* hot-air-ballon-festival-end */
+
+    /* get in touch */
+    .input-div{
+        width: 100%;
+    }
+    .git-heading h1{
+        font-size: 4em;
+    }
+    /* get in touch-end */
+
+
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media screen and (min-device-width: 768px) and (max-device-width: 992px) {
+
+    /* image-container */
+
+    .svg-all {
+        margin-top: 0px;
+    }
+
+    .md-image svg {
+        height: auto;
+        max-width: 66vmin;
+        width: 56%;
+        margin: 400px 0 0 0px;
+    }
+
+    .big-image svg {
+        width: 66%;
+        margin: 0px 0 0 100px;
+    }
+
+    .gray-circle svg {
+        width: 50%;
+        margin: 650px 20px 0px 220px;
+    }
+
+    .svg-all {
+        height: 100vh;
+    }
+
+    /* image-container-end */
+
+    /* backpacking trips  */
+
+    .trip-text h1 {
+        font-size: 4em;
+    }
+
+    .trip-text p {
+        /* padding: 0 50px 0 50px; */
+        font-size: 1.2em;
+    }
+
+    /* backpacking trips-end */
+
+    /* about us  */
+    .row-container {
+        margin: 0 !important;
+    }
+
+    .white-div-container {
+        width: auto;
+    }
+
+    .white-div-container p {
+        font-size: 1em !important;
+    }
+
+    .white-div-img img {
+        width: 85%;
+        margin-top: 30%;
+    }
+
+    /* about us-end */
+
+    /* image-cards */
+    .img-white-div {
+        width: 100%;
+    }
+
+    /* image-cards-end */
+
+    /* freedom */
+    .freedom-text-img img {
+        margin-right: 0;
+    }
+
+    .freedom-container {
+        height: 50vh;
+    }
+
+    .orange-text-div p {
+        width: 100%;
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    .orange-circle-text svg {
+        margin: 0 0 0 300px;
+        height: auto;
+        max-width: 66vmin;
+        width: 50%;
+        position: relative;
+    }
+
+    /* freedom-end */
+
+    /* image-container2 */
+    .row-img img {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    /* image-container2-end */
+
+
+    /* hot-air-ballon-festival */
+    .hot-gray-circle svg {
+        height: auto;
+        /* max-width: 76vmin; */
+        width: 25%;
+        margin: 30px 0px 0px 580px;
+        /* position: relative; */
+    }
+
+    .hot-big-img img {
+        width: 600px;
+        height: 600px;
+        margin: -210px 0px 0px 0px;
+    }
+
+    .hot-orange-circle svg {
+        margin-top: -600px;
+    }
+
+    .hot-white-div {
+        padding: 50px 30px;
+        width: 400px;
+        margin: -200px 0 0 232px;
+        /* position: relative; */
+    }
+
+    .hot-white-div h1 {
+        font-size: 3em;
+    }
+
+    .hot-white-div p {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .hot-white-div .btn {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+    /* hot-air-ballon-festival-end */
+
+    /* get in touch */
+    .input-div{
+        width: 100%;
+    }
+    .git-heading h1{
+        font-size: 4em;
+    }
+    /* get in touch-end */
+
+}
