@@ -341,12 +341,22 @@
 
 }
 
-@media screen and (min-device-width: 993px) and (max-device-width: 1080px) {
+@media screen and (max-device-width: 1024px) {
     .gray-circle svg {
         display: none;
     }
 
     .big-image svg {
-        max-width: 70vmin;
+        max-width: 65vmin;
+    }
+}
+
+@media screen and (min-device-width: 1280px) {
+    .gray-circle svg {
+        display: none;
+    }
+
+    .big-image svg {
+        max-width: 65vmin;
     }
 }
