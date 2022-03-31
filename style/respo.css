@@ -352,11 +352,8 @@
 }
 
 @media screen and (min-device-width: 1280px) {
-    .gray-circle svg {
-        display: none;
-    }
-
+    
     .big-image svg {
-        max-width: 65vmin;
+        max-width: 90vmin;
     }
 }
