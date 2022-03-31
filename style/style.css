@@ -155,14 +155,14 @@ header img {
 
 .md-image svg {
     height: auto;
-    max-width: 66vmin;
+    max-width: 50vmin;
     width: 76%;
-    margin: 0 0 0 180px;
+    margin: 0 0 0 250px;
 }
 
 .big-image svg {
     height: 100%;
-    max-width: 100vmin;
+    max-width: 90vmin;
     width: 100%;
     position: absolute;
     margin: -50px 0 0 500px;
@@ -170,9 +170,10 @@ header img {
 
 .gray-circle svg {
     height: auto;
-    /* max-width: 76vmin; */
-    width: 50%;
-    margin: 230px -100px 0px 900px;
+    max-width: 45vmin;
+    width: 330px;
+    margin: 200px -450px 0px 900px;
+    /* display: none; */
 }
 
 .svg-all {
@@ -380,10 +381,9 @@ header img {
 
 .hot-gray-circle svg {
     height: auto;
-    max-width: 76vmin;
+    max-width: 25vmin;
     width: 50%;
     margin: 30px 0px 0px 800px;
-    /* position: relative; */
 }
 
 .hot-big-img img {
@@ -392,18 +392,18 @@ header img {
     border-radius: 50%;
     background-position: 50% 50%;
     margin-right: 20%;
-    margin: -500px 0px 0px 90px;
+    margin: -200px 0px 0px 90px;
 }
 
 .hot-orange-circle svg {
-    margin-top: -550px;
+    margin-top: -700px;
 }
 
 .hot-white-div {
     background-color: #fff;
     color: #000000;
     padding: 80px 50px;
-    width: 700px;
+    /* width: 700px; */
     border-radius: 30px;
     margin: -300px 0 0 500px;
     position: relative;

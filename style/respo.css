@@ -41,6 +41,7 @@
     .gray-circle svg {
         width: 50%;
         margin: 310px 20px 0px 135px;
+        display: block;
     }
 
     .svg-all {
@@ -203,6 +204,7 @@
     .gray-circle svg {
         width: 50%;
         margin: 650px 20px 0px 220px;
+        display: block;
     }
 
     .svg-all {
@@ -337,4 +339,14 @@
     }
     /* get in touch-end */
 
+}
+
+@media screen and (min-device-width: 993px) and (max-device-width: 1080px) {
+    .gray-circle svg {
+        display: none;
+    }
+
+    .big-image svg {
+        max-width: 70vmin;
+    }
 }
